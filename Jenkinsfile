@@ -47,6 +47,7 @@ pipeline {
             }
         }
 
+
         stage('Terraform Apply') {
             steps {
                 script {
